@@ -1,0 +1,22 @@
+{
+  "name": "projectname",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/coffee-script/bin/coffee app.coffee",
+    "test": "./node_modules/mocha/bin/mocha --reporter nyan --compilers coffee:coffee-script/register test/*"
+  },
+  "dependencies": {
+    "express": "4.8.*",
+    "coffee-script": "*",
+    "toffee": "*",
+    "morgan": "*",
+    "body-parser": "*",
+    "request": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "supertest": "*"
+  }
+}

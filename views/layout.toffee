@@ -1,0 +1,11 @@
+<html>
+<head>
+  <title></title>
+  <style href="/css/main.css" rel="stylesheet"></style>
+</head>
+<body>
+  <section id="main">
+    #{raw body}
+  </section>
+</body>
+</html>
